@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="logo_long_g.png" alt="Rick's Texture Ripper" width="520">
+  <img src="PHOTO.png" alt="Rick's Texture Ripper" width="520">
 </p>
