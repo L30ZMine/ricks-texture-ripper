@@ -1,6 +1,7 @@
 <p align="center">
   <img src="PHOTO.png" alt="Rick's Texture Ripper" width="520">
 </p>
+
 ## Download
 to download and run just grab a .exe from the releases tab on the right side ---->
 
