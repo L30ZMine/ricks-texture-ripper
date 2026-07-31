@@ -3,7 +3,7 @@
 </p>
 
 ## Download
-to download and run just grab a .exe from the releases tab on the right side ---->
+to download and run just grab the application from the releases tab on the right side ->
 
 ## Issues
 To report an issue use the "Issues" tab or the dedicated module inside the application under "Help" > "Report an Issue..."
