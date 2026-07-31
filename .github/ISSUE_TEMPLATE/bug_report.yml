@@ -1,0 +1,107 @@
+name: Bug report
+description: Something in Rick's Texture Ripper is broken, crashes, or behaves wrongly.
+title: "[Bug] "
+labels: ["bug"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting.
+
+        **There is a faster way to do this.** In the app, use
+        **Help > Report an Issue**. It fills in your version, OS, GPU and the
+        last error or panic for you, so you can skip most of this form. It
+        strips file paths and user names out first, so nothing personal goes
+        with it.
+
+        Use this form if the app will not start, or if you would rather fill it
+        in by hand.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What went wrong, and what did you expect instead?
+      placeholder: |
+        Exporting an atlas with a curved-quad rip wrote a file with a
+        transparent band down the right edge. I expected the rip to fill it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: >
+        Numbered steps someone else can follow from a fresh start. This is the
+        most useful part of the report. A bug that can be reproduced is usually
+        a bug that gets fixed.
+      placeholder: |
+        1. Open a new project and add any JPEG.
+        2. Add a rip, switch its shape to Curved Quad.
+        3. Drag the right-hand edge control outward.
+        4. Export Atlas (Ctrl+X) as PNG.
+        5. Open the PNG. The right edge is transparent.
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: RTR version
+      description: >
+        Shown in the chin bar at the bottom of the window, and in Help > About.
+        Please give the exact version rather than "latest".
+      placeholder: "1.3.7"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      description: >
+        RTR is built and tested on Windows. Linux and macOS compile but are
+        untested, and nothing is released for them. See the README.
+      options:
+        - Windows 11
+        - Windows 10
+        - Windows (other)
+        - Linux
+        - macOS
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: >
+        Optional, but it helps a lot. Paste the block from
+        **Help > Report an Issue > Copy**, or from Help > Log if the app logged
+        a warning or an error. Rendered as code, so no backticks needed.
+      render: text
+    validations:
+      required: false
+
+  - type: textarea
+    id: files
+    attributes:
+      label: Project or image file
+      description: >
+        If the bug involves a specific image or `.rtrpf` project, attaching it
+        makes it much easier to reproduce. Drag the file into this box. Please
+        do not attach anything you are not free to share.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched the existing issues and this has not been reported.
+          required: true
+        - label: I am on the latest version, or I have said above which version I am on.
+          required: true

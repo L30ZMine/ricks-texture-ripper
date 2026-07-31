@@ -1,0 +1,16 @@
+# MUST stay true.
+#
+# The app's Help > Report an Issue builds a pre-filled URL of the form
+# `.../issues/new?title=...&body=...` (see `REPO_ISSUES_URL` in src/report.rs).
+# That link opens the blank issue editor with the diagnostics already pasted in.
+#
+# Setting this to false makes GitHub redirect `/issues/new` to the template
+# chooser and DISCARD the query string, so the app's best reporting path, the
+# one carrying the sanitized version/OS/GPU/panic blob, would quietly degrade to
+# an empty form. Forcing everyone through a template is not worth losing it.
+blank_issues_enabled: true
+
+contact_links:
+  - name: Documentation
+    url: https://github.com/L30ZMine/ricks-texture-ripper#readme
+    about: Controls, shortcuts, supported formats and known limitations. The app also has Help > Documentation built in.

@@ -1,0 +1,64 @@
+name: Feedback or feature idea
+description: Suggest something, request a feature, or say what got in your way.
+title: "[Feedback] "
+labels: ["feedback"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Anything that is not a crash or a bug belongs here: a feature you want,
+        a workflow that feels clumsy, a format that is missing, or just what you
+        are using RTR for.
+
+        Rough notes are fine. You do not need to propose a solution.
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of feedback is this?
+      options:
+        - A feature I want
+        - Something works, but it is awkward
+        - A format or file type is missing
+        - Documentation is unclear or wrong
+        - General impressions
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+      description: Describe it in your own words.
+      placeholder: |
+        I would like to export each rip as its own file as well as into the
+        atlas, so I can drop individual textures into an engine without
+        cutting them back out.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: What are you trying to do?
+      description: >
+        The problem behind the request, and how you work around it today. This
+        matters more than the proposed solution, because it often points at a
+        simpler fix than the one you had in mind.
+      placeholder: |
+        I rip wall textures from photos for a game level. Right now I export
+        the atlas and cut it apart in an image editor, which means redoing it
+        by hand every time I add a rip.
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: RTR version
+      description: Optional. Helpful if your request is about something that recently changed.
+      placeholder: "1.3.7"
+    validations:
+      required: false
