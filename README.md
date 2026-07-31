@@ -3,6 +3,9 @@
 </p>
 to download and run just grab a .exe from the releases tab on the right side ---->
 
+
 To report an issue use the "Issues" tab or the dedicated module inside the application under "Help" > "Report an Issue..."
 
-- l30z
+~ l30z
+
+for license see LICENSE.txt
