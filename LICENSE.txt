@@ -1,0 +1,117 @@
+Rick's Texture Ripper (RTR)
+End User License Agreement
+
+Copyright (c) 2026 l30z. All rights reserved.
+
+This software is proprietary. It is distributed as a compiled binary only. The
+source code is not published and is not covered by this license.
+
+By installing, copying, or using this software you accept the terms below. If
+you do not accept them, do not install or use it.
+
+
+1. GRANT OF LICENSE
+
+You are granted a non-exclusive, royalty-free, revocable license to install and
+use unmodified copies of this software, for personal or commercial purposes, on
+any number of computers you own or control.
+
+
+2. YOUR CONTENT AND YOUR OUTPUT
+
+The copyright holder claims no rights whatsoever in:
+
+  (a) the images, photographs, or other files you open with this software; or
+  (b) the textures, atlases, project files, or other output it produces from
+      them.
+
+Those remain entirely yours, and you may use, sell, or distribute them without
+restriction or attribution under this license. This software is a tool. Using
+it creates no claim over what you make with it.
+
+You are responsible for holding the necessary rights to any material you feed
+into the software.
+
+
+3. RESTRICTIONS
+
+You may not:
+
+  (a) sell, rent, lease, sublicense, or otherwise distribute this software, or
+      make it available to third parties, whether or not for a fee;
+  (b) modify, adapt, or create derivative works of the software, or patch or
+      alter the distributed binary;
+  (c) remove or obscure any copyright, trademark, or other proprietary notice;
+  (d) represent the software as your own work.
+
+You may make copies for backup purposes, and you may direct others to the
+official download location.
+
+Nothing in this section restricts any act that applicable law expressly permits
+notwithstanding a contractual prohibition. In particular, where mandatory law
+grants you a right to decompile the software for interoperability purposes
+(such as Article 6 of EU Directive 2009/24/EC), that right is unaffected.
+
+
+4. THIRD-PARTY COMPONENTS
+
+This software incorporates third-party open-source components, each under its
+own license. Those licenses govern those components and, where they conflict
+with this agreement, take precedence for the component concerned.
+
+The complete list, with full license texts and required attributions, is in the
+accompanying file:
+
+    third-party-licenses.txt
+
+That file is part of the distribution and must be kept with the software when
+you pass a copy along under section 3.
+
+
+5. UPDATES
+
+The software may check for and install updates automatically. This behaviour
+can be disabled in the application's preferences, or by starting it with the
+-no_update flag. Updated versions are covered by this same license unless they
+are accompanied by different terms.
+
+
+6. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+This is beta software. It may contain defects, may fail unexpectedly, and may
+lose or corrupt data. Keep independent backups of anything you care about.
+
+
+7. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN
+CONNECTION WITH THE SOFTWARE OR ITS USE, INCLUDING WITHOUT LIMITATION ANY LOSS
+OF DATA, LOSS OF PROFITS, OR BUSINESS INTERRUPTION.
+
+Some jurisdictions do not allow the exclusion of certain warranties or the
+limitation of liability for death, personal injury, fraud, or gross negligence.
+Where that is the case, the exclusions above apply only to the extent permitted,
+and nothing here limits liability that cannot lawfully be limited.
+
+
+8. TERMINATION
+
+This license terminates automatically if you breach it. On termination you must
+stop using the software and destroy all copies. Sections 2, 6, and 7 survive
+termination.
+
+
+9. GENERAL
+
+If any provision is held unenforceable, the remainder stays in force. Failure to
+enforce a provision is not a waiver of it.
+
+
+Contact and issue reports:
+https://github.com/L30ZMine/ricks-texture-ripper/issues
