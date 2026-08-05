@@ -8,7 +8,7 @@ Builds are on the [Releases](https://github.com/L30ZMine/ricks-texture-ripper/re
 
 ### Windows
 
-Unpack the zip anywhere and run `ricks-textureripper.exe`. There is no installer.
+Unpack the zip anywhere and run `ricks-textureripper.exe`.
 
 > **Windows will warn you the first time.** SmartScreen shows a blue "Windows protected your PC" box. The exe is not code-signed: a certificate costs more per year than this project makes, so every new build trips it.
 >
@@ -20,7 +20,7 @@ Open the `.dmg` and drag the app into Applications. The first launch needs a rig
 
 ## Issues
 
-Use the [Issues](https://github.com/L30ZMine/ricks-texture-ripper/issues) tab, or **Help > Report an Issue...** inside the app. That one attaches your version, OS and GPU, with file paths and user names stripped out.
+Use the [Issues](https://github.com/L30ZMine/ricks-texture-ripper/issues) tab, or **Help > Report an Issue...** inside the app. 
 
 ## License
 
