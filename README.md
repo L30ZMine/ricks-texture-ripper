@@ -20,7 +20,7 @@ Unpack the zip anywhere and run `ricks-textureripper.exe`.
 
 Open the `.dmg` and drag the app into Applications. The first launch needs a right-click (or Control-click), then **Open**, then **Open** again, a double-click only offers you Cancel. You only need to do this once.
 
-## Issues
+## Issues & Feedback
 
 Use the [Issues](https://github.com/L30ZMine/ricks-texture-ripper/issues) tab, or **Help > Report an Issue...** inside the app. 
 
