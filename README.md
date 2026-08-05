@@ -10,9 +10,11 @@ Builds are on the [Releases](https://github.com/L30ZMine/ricks-texture-ripper/re
 
 Unpack the zip anywhere and run `ricks-textureripper.exe`.
 
-> **Windows will warn you the first time.** SmartScreen shows a blue "Windows protected your PC" box. The exe is not code-signed: a certificate costs more per year than this project makes, so every new build trips it.
+> **Windows will warn you the first time.** SmartScreen shows a blue "Windows protected your PC" box. 
 >
 > Click **More info**, then **Run anyway**.
+>
+> The exe is not code-signed: a certificate costs more per year than this project makes, so every new build trips it.
 
 ### macOS
 
