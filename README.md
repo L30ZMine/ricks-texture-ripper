@@ -18,7 +18,7 @@ Unpack the zip anywhere and run `ricks-textureripper.exe`.
 
 ### macOS
 
-Open the `.dmg` and drag the app into Applications. The first launch needs a right-click (or Control-click), then **Open**, then **Open** again. The app is signed but not notarized, so a double-click only offers you Cancel. You do this once.
+Open the `.dmg` and drag the app into Applications. The first launch needs a right-click (or Control-click), then **Open**, then **Open** again, a double-click only offers you Cancel. You only need to do this once.
 
 ## Issues
 
